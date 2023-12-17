@@ -1,0 +1,90 @@
+<dashboard version="1.1">
+<label>App Home</label>
+<row>
+  <panel>
+    <html>
+      <style>
+        .dashboards_box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .dashboard_tile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20%;
+            height: 20vh;
+            border: 1px solid gray;
+            border-radius: 20px;
+            background: white;
+        }
+                
+        .dashboard_tile:hover {
+            background: #d3d3d34d;
+            cursor: grab;
+        }
+        
+        .dashboard_tile > a {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:black;
+            font-family:sans-serif;
+            font-weight:bold;
+            font-size:larger;
+            padding: 10%;
+            text-align:center;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        .dashboards_box_title {
+            height: 5vh;
+            display: flex;
+            align-items: center;
+            padding: 1%;
+            font-size: larger;
+            font-weight: bolder;
+        }
+        
+        
+        .dashboard-row .dashboard-panel {
+            background:transparent
+        }
+      </style>
+      <div class="dashboards_box_title">Section 1</div>
+      <div class="dashboards_box">
+        <div class="dashboard_tile">
+          <a href="/app/search/chart_colors_demo" target="_blank">Chart Colors Demo</a>
+        </div>
+        <div class="dashboard_tile">
+          <a href="/app/search/cpu_and_memory_usage_metrics" target="_blank">CPU and Memory Usage Metrics</a>
+        </div>
+        <div class="dashboard_tile">
+          <a href="/app/search/dashboard_studio_demo" target="_blank">Dashboard Studio Demo</a>
+        </div>
+        <div class="dashboard_tile">Dashboard 4</div>
+        <div class="dashboard_tile">Dashboard 5</div>
+      </div>
+      <div class="dashboards_box_title">Section 2</div>
+      <div class="dashboards_box">
+        <div class="dashboard_tile">
+          <a href="/app/search/panel_width_adjustment" target="_blank">Panel width adjustment</a>
+        </div>
+        <div class="dashboard_tile">
+          <a href="/app/search/panel_width_adjustment" target="_blank">Panel width adjustment</a>
+        </div>
+        <div class="dashboard_tile">Dashboard 4</div>
+        <div class="dashboard_tile">Dashboard 5</div>
+      </div>
+    </html>
+  </panel>
+</row>
+</dashboard>
